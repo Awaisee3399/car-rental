@@ -12,6 +12,8 @@ import exit from '../../images/Exit.svg';
 import Log from '../../landingpages/log-out/Index';
 
 const Navbar = () => {
+
+  // This is a Navnar Component.
   const [showModal, setShowModal] = useState(false);
   const [showConfirmation, setShowConfirmation] = useState(false);
   const [loggedIn, setLoggedIn] = useState(false);
